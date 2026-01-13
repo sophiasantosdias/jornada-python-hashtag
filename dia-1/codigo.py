@@ -6,14 +6,15 @@ import pandas
 # Mudando a configuração do PyAutoGui
 pyautogui.PAUSE = 1
 link = 'https://dlp.hashtagtreinamentos.com/python/intensivao/login'
-email = 'sophiasantos.code@gmail.com'
-senha = '123456789'
+email = 'emailsuperoriginalediferente@gmail.com'
+senha = '102938475600'
 
 # Passo 1: Entrar no sistema da empresa
 # 1.1: Abrir o navegador
 pyautogui.press('win')
 pyautogui.write('chrome')
 pyautogui.press('enter')
+sleep(5)
 # 1.2: Entrar no site
 pyautogui.write(link)
 pyautogui.press('enter')
